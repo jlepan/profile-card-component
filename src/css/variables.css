@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "KumbhSans";
+    src: url("../assets/fonts/KumbhSans/KumbhSans-VariableFont_YOPQ,wght.ttf"), format("truetype");
+}
+
+:root {
+    --fontBase: "KumbhSans", Arial, Helvetica, sans-serif;
+    --fontSizeMedium: 18px;
+    --fontSizeLittle: 16px;
+    --backgroundColorBody: hsl(185, 75%, 39%);
+    --primaryTextColor: hsl(229, 23%, 23%);
+    --secondaryTextColor: hsl(227, 10%, 46%);
+}
