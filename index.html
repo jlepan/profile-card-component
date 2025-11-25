@@ -1,44 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card Component</title>
-    <link rel="shortcut icon" href="./public/img/favicon-32x32.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./src/css/style.css">
-</head>
-<body class="vh-100 position-relative overflow-hidden d-flex flex-column justify-content-center align-items-center">
-    <img class="top-deco-img position-absolute top-0 left-0 z-n1 translate-middle" src="./public/img/bg-pattern-top.svg" alt="" aria-hidden="true">
-    <img class="bottom-deco-img position-absolute  bottom-0 right-0 z-n1" src="./public/img/bg-pattern-bottom.svg" alt="" aria-hidden="true">
+    <link rel="shortcut icon" href="./public/img/favicon-32x32.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body class="vh-100 position-relative overflow-hidden d-flex flex-column justify-content-center align-items-center">
+    <img class="top-deco-img position-absolute top-0 left-0 z-n1 translate-middle" src="./public/img/bg-pattern-top.svg" alt="" aria-hidden="true" />
+    <img class="bottom-deco-img position-absolute bottom-0 right-0 z-n1" src="./public/img/bg-pattern-bottom.svg" alt="" aria-hidden="true" />
     <main class="d-flex flex-column justify-content-center align-items-center">
-        <div class="container profile-card text-center bg-white rounded-4 shadow-lg p-0">
-            <img class="profile-card_top-deco rounded-top-4 w-100" src="./public/img/bg-pattern-card.svg" alt="" aria-hidden="true">
-            <img class="profile-card_profile-img translate-middle-y rounded-circle border border-white border-5" src="./public/img/image-victor.jpg" alt="profile image of Victor Crest">
-            <p class="profile-card_informations m-0 d-flex flex-wrap justify-content-center align-items-center gap-2 row-gap-1">
-                <span class="profile-card_name fw-bolder">Victor Crest</span>
-                <span class="profile-card_age fw-medium">26</span>
-                <span class="profile-card_location fw-normal w-100">London</span>
-            </p>
-            <div class="profile-card_stats border-top p-4 pb-3 d-flex justify-content-around align-items-center">
-                <p class="profile-card_followers m-0 d-flex flex-column justify-content-center align-items-center">
-                    <span class="profile-card_stats-number fw-bolder">80K</span>
-                    <span class="profile-card_stats-text fw-medium">Followers</span>
-                </p>
-                <p class="profile-card_likes m-0 d-flex flex-column justify-content-center align-items-center">
-                    <span class="profile-card_stats-number fw-bolder">803K</span>
-                    <span class="profile-card_stats-text fw-medium">Likes</span>
-                </p>
-                <p class="profile-card_photos m-0 d-flex flex-column justify-content-center align-items-center">
-                    <span class="profile-card_stats-number fw-bolder">1.4K</span>
-                    <span class="profile-card_stats-text fw-medium">Photos</span>
-                </p>
-            </div>
+      <div class="container profile-card text-center bg-white rounded-4 shadow-lg p-0">
+        <img class="profile-card_top-deco rounded-top-4 w-100" src="./public/img/bg-pattern-card.svg" alt="" aria-hidden="true" />
+        <img class="profile-card_profile-img translate-middle-y rounded-circle border border-white border-5" src="./public/img/image-victor.jpg" alt="profile image of Victor Crest" />
+        <p class="profile-card_informations m-0 d-flex flex-wrap justify-content-center align-items-center gap-2 row-gap-1">
+          <span class="profile-card_name fw-bolder">Victor Crest</span>
+          <span class="profile-card_age fw-medium">26</span>
+          <span class="profile-card_location fw-normal w-100">London</span>
+        </p>
+        <div class="profile-card_stats border-top p-4 pb-3 d-flex justify-content-around align-items-center">
+          <p class="profile-card_followers m-0 d-flex flex-column justify-content-center align-items-center">
+            <span class="profile-card_stats-number fw-bolder">80K</span>
+            <span class="profile-card_stats-text fw-medium">Followers</span>
+          </p>
+          <p class="profile-card_likes m-0 d-flex flex-column justify-content-center align-items-center">
+            <span class="profile-card_stats-number fw-bolder">803K</span>
+            <span class="profile-card_stats-text fw-medium">Likes</span>
+          </p>
+          <p class="profile-card_photos m-0 d-flex flex-column justify-content-center align-items-center">
+            <span class="profile-card_stats-number fw-bolder">1.4K</span>
+            <span class="profile-card_stats-text fw-medium">Photos</span>
+          </p>
         </div>
+      </div>
     </main>
-     <footer class="text-center mt-5 w-100 position-absolute bottom-0 pb-4">
-        <p class="footer_text mb-0 fw-medium">Website by <a class="footer_link link-primary" href="https://github.com/jlepan" target="_blank" rel="noopener noreferrer">Juliette Lepan</a></p>
-        <p class="footer_text mb-0 fw-medium">Design by <a class="footer_link link-primary" href="https://www.frontendmentor.io" target="_blank" rel="noopener noreferrer">Frontend Mentor</a></p>
+    <footer class="text-center mt-5 w-100 position-absolute bottom-0 pb-4">
+      <p class="footer_text mb-0 fw-medium">Website by <a class="footer_link link-primary" href="https://github.com/jlepan" target="_blank" rel="noopener noreferrer">Juliette Lepan</a></p>
+      <p class="footer_text mb-0 fw-medium">Design by <a class="footer_link link-primary" href="https://www.frontendmentor.io" target="_blank" rel="noopener noreferrer">Frontend Mentor</a></p>
     </footer>
-</body>
+  </body>
 </html>

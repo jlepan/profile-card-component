@@ -1,57 +1,59 @@
 @import url("./variables.css");
 
 body {
-    background-color: var(--backgroundColorBody);
-    font-family: var(--fontBase);
+  background-color: var(--backgroundColorBody);
+  font-family: var(--fontBase);
 }
 
 .bottom-deco-img {
-    transform: translate(50%, 50%);
-    
+  transform: translate(50%, 50%);
 }
 
 .container.profile-card {
-    width: 325px;
-    height: 375px;
+  width: 325px;
+  height: 375px;
 }
 
 @media only screen and (min-width: 768px) {
-    .container.profile-card {
-        width: 355px;
-    }
+  .container.profile-card {
+    width: 355px;
+  }
 }
 
 .profile-card_top-deco {
-    height: 142px
+  height: 142px;
 }
 
 .profile-card_informations {
-    transform: translateY(-70%);
+  transform: translateY(-70%);
 }
 
 .profile-card_stats {
-    transform: translateY(-22%);
+  transform: translateY(-22%);
 }
 
-.profile-card_name, .profile-card_stats-number {
-    color: var(--primaryTextColor);
-    font-size: var(--fontSizeMedium);
+.profile-card_name,
+.profile-card_stats-number {
+  color: var(--primaryTextColor);
+  font-size: var(--fontSizeMedium);
 }
 
-.profile-card_age, .profile-card_location, .profile-card_stats-text {
-    color: var(--secondaryTextColor);
-    font-size: var(--fontSizeLittle);
+.profile-card_age,
+.profile-card_location,
+.profile-card_stats-text {
+  color: var(--secondaryTextColor);
+  font-size: var(--fontSizeLittle);
 }
 
 .profile-card_age {
-    font-size: var(--fontSizeMedium);
+  font-size: var(--fontSizeMedium);
 }
 
 .profile-card_stats-text {
-    font-size: 12px;
-    letter-spacing: 0.2em;
+  font-size: 12px;
+  letter-spacing: 0.2em;
 }
 
 .footer_text {
-    color: var(--primaryTextColor)
+  color: var(--primaryTextColor);
 }
