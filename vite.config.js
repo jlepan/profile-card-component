@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/browser-extensions-manager-ui-main/",
+  base: "/profile-card-component/",
   build: {
     rollupOptions: {
       input: {
